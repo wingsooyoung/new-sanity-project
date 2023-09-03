@@ -1,6 +1,7 @@
 # My Notes
 
-This is the database backend.
+This is the database backend. This is for testing with schemas and with the Studio editor UI.
+
 [The tutorial's frontend can be found in this repository here.](https://github.com/wingsooyoung/new-sanity-test)
 
 ### Sanity Clean Content Studio 
