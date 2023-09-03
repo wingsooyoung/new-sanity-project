@@ -1,4 +1,9 @@
-# Sanity Clean Content Studio
+# My Notes
+
+This is the database backend.
+[The tutorial's frontend can be found in this repository here.](https://github.com/wingsooyoung/new-sanity-test)
+
+### Sanity Clean Content Studio 
 
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
