@@ -28,7 +28,7 @@ export default defineConfig({
             {
               title: 'My Studio',
               apiId: 'bd3f84f8-29e1-4021-8da3-1bc92f47e9c9',
-              buildHookId: 'buildid',
+              buildHookId: '64f63d49f28bfb15c920c3df',
               name: 'forx-sanity-studio',
             }
           ]
