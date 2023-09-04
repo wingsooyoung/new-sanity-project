@@ -85,12 +85,12 @@ export default {
           type: 'string',
           title: 'Description'
         },
-        {
-          name: 'author',
-          type: 'reference',
-          title: 'Author',
-          to: {type: 'person'}
-        }
+        // {
+        //   name: 'author',
+        //   type: 'reference',
+        //   title: 'Author',
+        //   to: {type: 'person'}
+        // }
       ]
     },
     {
@@ -175,7 +175,7 @@ export default {
           title: 'Director',
           name: 'director',
           type: 'reference',
-          to: [{type: 'person'}]
+          to: [{type: 'string'}]
         }
       ]
     },
