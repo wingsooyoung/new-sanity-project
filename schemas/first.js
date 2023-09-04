@@ -1,4 +1,5 @@
-const first = {
+// schemas/first.js
+export default {
   title: 'The Schema Title', //human readable label
   name: 'first', //the field name, this will be the key to access within the data
   type: 'document', //name of a valid schema type - DOCUMENT is what every other type is stored inside of!
