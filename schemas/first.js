@@ -204,11 +204,7 @@ const first = {
         scheme: ['http', 'https', 'mailto', 'tel']
       })
     },
-    {
-      name: 'person',
-      type: 'string',
-      title: 'Person'
-    },
+  
     
   ]
 }
