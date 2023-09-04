@@ -11,9 +11,6 @@ const first = {
       initialValue: 'Example Title Text'
     },
     {
-      //more fields go here
-    },
-    {
       title: 'Category Set',
       name: 'categorySet',
       type: 'array',
@@ -126,7 +123,7 @@ const first = {
           title: 'Attribution',
         }
       ]
-    }
+    },
     {
       title: 'Current popularity',
       name: 'popularity',
