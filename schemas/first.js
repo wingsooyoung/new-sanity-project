@@ -1,4 +1,14 @@
 // schemas/first.js
+
+import React from 'react'
+
+const HighlightIcon = () => (
+  <span style={{ fontWeight: 'bold' }}>H</span>
+)
+const HighlightDecorator = props => (
+  <span style={{ backgroundColor: 'yellow' }}>{props.children}</span>
+)
+
 export default {
   title: 'The Schema Title', //human readable label
   name: 'first', //the field name, this will be the key to access within the data
@@ -47,7 +57,22 @@ export default {
       title: 'The Content', 
       name: 'content',
       type: 'array', 
-      of: [{type: 'block'}] //this provides a rich-text editor for block content
+      of: [{
+        type: 'block',
+        marks: {
+          decorators: [
+            { title: 'Strong', value: 'strong' },
+            { title: 'Emphasis', value: 'em' },
+            { title: 'Code', value: 'code' },
+            {
+              title: 'Highlight',
+              value: 'highlight',
+              icon: HighlightIcon,
+              component: HighlightDecorator
+            }
+          ]
+        }
+      }] //this provides a rich-text editor for block content
     },
     {
       title: 'Has the movie been released?',
