@@ -1,4 +1,4 @@
-// schemas/first.js
+// schemas/postcard-1.js
 export default {
     title: 'Postcard Schema', //human readable label
     name: 'postcard-1', 
@@ -9,13 +9,15 @@ export default {
             name: 'letterSigned', 
             title: 'Is this letter signed with a nickname?', 
             type: 'boolean', 
-            layout: 'checkbox'
+            layout: 'checkbox',
+            initialValue: true
         },
         { //make this field change based on previous field's answer
             name: 'letterFrom', 
             title: 'This letter is from', 
             type: 'string', 
-            initialValue: 'FOR X'
+            initialValue: 'FOR X',
+            hidden: ({ parent, value }) => parent?.letterSigned == true
         },
         {
             name: 'letterTo', 
