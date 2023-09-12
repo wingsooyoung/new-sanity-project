@@ -17,7 +17,7 @@ export default {
             title: 'This letter is from', 
             type: 'string', 
             initialValue: 'FOR X',
-            hidden: ({ parent, value }) => parent?.letterSigned == true
+            // hidden: ({ parent, value }) => parent?.letterSigned == true
         },
         {
             name: 'letterTo', 
