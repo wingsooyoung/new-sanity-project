@@ -1,13 +1,13 @@
 // schemas/first.js
 
-import React from 'react'
+// import React from 'react'
 
-const HighlightIcon = () => (
-  <span style={{ fontWeight: 'bold' }}>H</span>
-)
-const HighlightDecorator = props => (
-  <span style={{ backgroundColor: 'yellow' }}>{props.children}</span>
-)
+// const HighlightIcon = () => (
+//   <span style={{ fontWeight: 'bold' }}>H</span>
+// )
+// const HighlightDecorator = props => (
+//   <span style={{ backgroundColor: 'yellow' }}>{props.children}</span>
+// )
 
 export default {
   title: 'The Schema Title', //human readable label
@@ -64,12 +64,12 @@ export default {
             { title: 'Strong', value: 'strong' },
             { title: 'Emphasis', value: 'em' },
             { title: 'Code', value: 'code' },
-            {
-              title: 'Highlight',
-              value: 'highlight',
-              icon: HighlightIcon,
-              component: HighlightDecorator
-            }
+            // {
+            //   title: 'Highlight',
+            //   value: 'highlight',
+            //   icon: HighlightIcon,
+            //   component: HighlightDecorator
+            // }
           ]
         }
       }] //this provides a rich-text editor for block content
