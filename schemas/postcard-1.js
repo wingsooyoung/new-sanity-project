@@ -42,6 +42,12 @@ export default {
             }
         },
         {
+          title: 'Postcard Design',
+          name: 'postcardDesign',
+          type: 'reference',
+          to: [{type: 'base'}]
+        },
+        {
             name: 'letterMessage', 
             title: 'The contents of this letter are:', 
             type: 'text'
