@@ -26,18 +26,18 @@ export default {
             of: [{type: 'string'}],
             options: {
               list: [ 
-                {title: 'Jaehan', value: 'jaehan'},
-                {title: 'Hwichan', value: 'hwichan'},
-                {title: 'Sebin', value: 'sebin'},
-                {title: 'Hangyeom', value: 'hangyeom'},
-                {title: 'Taedong', value: 'taedong'},
-                {title: 'Jehyun', value: 'jehyun'},
-                {title: 'Xen', value: 'xen'},
-                {title: 'Kevin', value: 'kevin'},
-                {title: 'Junghoon', value: 'junghoon'},
-                {title: 'Hyuk', value: 'hyuk'},
-                {title: 'Yechan', value: 'yechan'},
-                {title: 'OMEGA X', value: 'omegaX'}
+                {title: 'Jaehan', value: 'Jaehan'},
+                {title: 'Hwichan', value: 'Hwichan'},
+                {title: 'Sebin', value: 'Sebin'},
+                {title: 'Hangyeom', value: 'Hangyeom'},
+                {title: 'Taedong', value: 'Taedong'},
+                {title: 'Jehyun', value: 'Jehyun'},
+                {title: 'Xen', value: 'Xen'},
+                {title: 'Kevin', value: 'Kevin'},
+                {title: 'Junghoon', value: 'Junghoon'},
+                {title: 'Hyuk', value: 'Hyuk'},
+                {title: 'Yechan', value: 'Yechan'},
+                {title: 'OMEGA X', value: 'ALL'}
               ]
             }
         },
