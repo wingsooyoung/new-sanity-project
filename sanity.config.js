@@ -3,7 +3,6 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {
   dashboardTool,
-  sanityTutorialsWidget,
   projectUsersWidget,
   projectInfoWidget,
 } from "@sanity/dashboard";
@@ -19,7 +18,6 @@ export default defineConfig({
 
   plugins: [deskTool(), visionTool(), dashboardTool({ 
     widgets: [    
-      sanityTutorialsWidget(),
       projectInfoWidget(),
       projectUsersWidget(),
       netlifyWidget({
